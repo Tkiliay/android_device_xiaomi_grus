@@ -42,5 +42,9 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# WiFi
+PRODUCT_PACKAGES += \
+    TargetWifiOverlay
+
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/grus/grus-vendor.mk)
