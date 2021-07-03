@@ -1,4 +1,4 @@
-# Unpinned blobs from grus-user 11 RKQ1.200826.002 V12.5.1.0.RFBMIXM release-keys
+# Unpinned blobs from grus-user 11 RKQ1.200826.002 V12.5.4.0.RFBCNXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -51,7 +51,7 @@ vendor/lib/libssrec.so
 
 # Camera
 vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/hw/com.qti.chi.override.so|30790a293658003bddbee235135bf7604e05ba02
 vendor/lib/libFaceGrade.so
 vendor/lib/libSNPE.so
 vendor/lib/libVDClearShot.so
