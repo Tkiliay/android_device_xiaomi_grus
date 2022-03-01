@@ -18,4 +18,7 @@
 <resources>
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
+    
+    <!-- UDFPS recognizing animation vertical position offset -->
+    <dimen name="udfps_animation_offset">35dp</dimen>
 </resources>
