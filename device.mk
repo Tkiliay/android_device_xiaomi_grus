@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # Inherit from sdm710-common
 $(call inherit-product, device/xiaomi/sdm710-common/sdm710.mk)
 
