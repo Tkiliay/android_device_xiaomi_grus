@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Fingerprint
+TARGET_HAS_NFC := true
 TARGET_HAS_UDFPS := true
 
 # Inherit from sdm710-common
