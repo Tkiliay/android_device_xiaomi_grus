@@ -217,7 +217,6 @@ vendor/lib/mibokeh_712_opencl.bin
 
 # Display calibration
 vendor/etc/dsi_ss_ea8076_fhd_cmd_display_mi.xml
-vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
 
 # Display configs
 vendor/etc/hdr_config.cfg
