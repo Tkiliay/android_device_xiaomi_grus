@@ -17,5 +17,8 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG += xiaomi/grus.config
 
+# VINTF
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Inherit from the proprietary version
 include vendor/xiaomi/grus/BoardConfigVendor.mk
