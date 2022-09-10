@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/grus/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common sweet stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_grus
+PRODUCT_NAME := cherish_grus
 PRODUCT_DEVICE := grus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9 SE
@@ -25,3 +25,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT="grus"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Inherit some props from Cherish
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=Toyohama
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP := true

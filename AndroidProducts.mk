@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_grus.mk
+    $(LOCAL_DIR)/cherish_grus.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_grus-user \
-    lineage_grus-userdebug \
-    lineage_grus-eng
+    cherish_grus-user \
+    cherish_grus-userdebug \
+    cherish_grus-eng
