@@ -30,4 +30,16 @@
         103
     </integer>
 
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
+
+    <!-- Color of the UDFPS pressed view -->
+    <color name="config_udfpsColor">#ff00ff00</color>
+
+    <!-- HBM type of UDFPS overlay.
+            0 - GLOBAL HBM
+            1 - LOCAL HBM
+    -->
+    <integer name="config_udfpsHbmType">0</integer>
+
 </resources>
