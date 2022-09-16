@@ -300,7 +300,6 @@ vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
 vendor/etc/sensors/config/sns_smd.json
 vendor/etc/sensors/config/tcs3701.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
 
