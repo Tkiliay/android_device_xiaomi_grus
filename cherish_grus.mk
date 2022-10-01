@@ -30,3 +30,5 @@ BUILD_FINGERPRINT := Xiaomi/grus/grus:11/RKQ1.200826.002/V12.5.1.0.RFBMIXM:user/
 # Inherit some props from Cherish
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=Toyohama
+TARGET_BOOT_ANIMATION_RES := 1080
+EXTRA_FOD_ANIMATIONS := true
