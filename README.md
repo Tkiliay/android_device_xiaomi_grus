@@ -18,7 +18,7 @@ Rear Camera  | 48 MP (wide) + 13 MP (ultrawide) + 8 MP (portrait), PDAF, dual-LE
 
 ## Device picture
 
-![Xiaomi Mi 9 SE](https://vovomobiles.com/wp-content/uploads/2019/12/Xiaomi-Mi-9-SE-1.png "Xiaomi Mi 9 SE in Piano Black")
+![Xiaomi Mi 9 SE](https://wiki.lineageos.org/images/devices/grus.png)
 
 ***
 
