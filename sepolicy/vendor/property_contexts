@@ -38,9 +38,6 @@ vendor.sys.rpmb_state      u:object_r:vendor_tee_listener_prop:s0
 persist.vendor.sys.pay.ifaa              u:object_r:vendor_tee_listener_prop:s0
 persist.vendor.sys.provision.status      u:object_r:vendor_tee_listener_prop:s0
 
-# NFC
-persist.nfc.               u:object_r:nfc_prop:s0
-
 # PowerHAL
 vendor.powerhal.           u:object_r:vendor_power_prop:s0
 
