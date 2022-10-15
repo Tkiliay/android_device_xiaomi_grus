@@ -47,6 +47,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm710
 TARGET_KERNEL_CONFIG := grus_defconfig
 TARGET_KERNEL_CLANG_VERSION := proton
 SELINUX_IGNORE_NEVERALLOWS := true
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
