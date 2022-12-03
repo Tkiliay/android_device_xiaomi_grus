@@ -25,10 +25,12 @@ WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="grus-user 11 RKQ1.200826.002 V12.5.4.0.RFBCNXM release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:13/TP1A.221105.002/9012097:user/release-keys" \
 
-BUILD_FINGERPRINT := Xiaomi/grus/grus:11/RKQ1.200826.002/V12.5.4.0.RFBCNXM:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221105.002 9012097 release-keys" \
+    PRODUCT_NAME="grus" \
+    TARGET_DEVICE="grus"
 
 # Inherit some props from Cherish
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
