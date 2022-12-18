@@ -1,4 +1,4 @@
-# Unpinned blobs from grus-user 11 RKQ1.200826.002 V12.5.1.0.RFBMIXM release-keys
+# Unpinned blobs from grus-user 11 RKQ1.200826.002 V12.5.4.0.RFBCNXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -225,6 +225,20 @@ vendor/etc/sdr_config.cfg
 
 # Display firmware
 vendor/firmware/goodix_gt9886_limit_f2.tporder
+
+# DRM (MTD)
+vendor/bin/mtd@1.2
+vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
+-vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
+vendor/lib64/libmfido.so
+vendor/lib64/libminkdescriptor.so
+vendor/lib64/libmt@1.2.so
+vendor/lib64/libtrustedapploader.so
+vendor/lib64/libwvkeybox.so
+vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
+vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
