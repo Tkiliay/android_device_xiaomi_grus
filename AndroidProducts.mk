@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_grus.mk
+    $(LOCAL_DIR)/lineage_grus.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_grus-user \
-    cherish_grus-userdebug \
-    cherish_grus-eng
+    lineage_grus-user \
+    lineage_grus-userdebug \
+    lineage_grus-eng
