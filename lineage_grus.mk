@@ -32,10 +32,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="grus" \
     TARGET_DEVICE="grus"
 
-# Inherit some props from Cherish
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Toyohama
-
 # FOD animations
 EXTRA_UDFPS_ANIMATIONS := true
 
