@@ -37,3 +37,8 @@ EXTRA_UDFPS_ANIMATIONS := true
 
 ## Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Inherit some props from Cherish
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=Toyohama
+
