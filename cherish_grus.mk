@@ -25,12 +25,10 @@ WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := "google/cheetah/cheetah:13/TQ1A.221205.012/9283063:user/release-keys" \
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="cheetah-user 13 TQ1A.221205.012 9283063 release-keys" \
-    PRODUCT_NAME="grus" \
-    TARGET_DEVICE="grus"
+    PRIVATE_BUILD_DESC="grus-user 11 RKQ1.200826.002 V12.5.4.0.RFBCNXM release-keys"
+
+BUILD_FINGERPRINT := Xiaomi/grus/grus:11/RKQ1.200826.002/V12.5.4.0.RFBCNXM:user/release-keys
 
 # FOD animations
 EXTRA_UDFPS_ANIMATIONS := true
