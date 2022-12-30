@@ -328,4 +328,39 @@
 
     <!-- Whether devices suports in-display fingerprint when screen is off -->
     <bool name="config_supportsScreenOffUdfps">true</bool>
+
+    <!-- The bounding path of the cutout region of the main built-in display.
+         Must either be empty if there is no cutout region, or a string that is parsable by
+         {@link android.util.PathParser}.
+         The path is assumed to be specified in display coordinates with pixel units and in
+         the display's native orientation, with the origin of the coordinate system at the
+         center top of the display.
+         To facilitate writing device-independent emulation overlays, the marker `@dp` can be
+         appended after the path string to interpret coordinates in dp instead of px units.
+         Note that a physical cutout should be configured in pixels for the best results.
+         -->
+
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">
+        M-86.9975334,10.7082389
+        C-74.1335099,23.7038575 -64.104552,36.2300641 -56.9106598,48.2868587
+        C-45.0899716,68.1052477 -23.8069241,81 0.002904346,81
+        C23.8127328,81 45.0899716,68.1052477 56.9164685,48.2868587
+        C64.1090408,36.2290779 74.1379482,23.7022572 87.0031906,10.7063968
+        L87,0
+        L-87,0
+        L-86.9975334,10.7082389
+    </string>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">78px</dimen>
+    <dimen name="status_bar_height_landscape">24.0dp</dimen>
+
+    <!-- Radius of the software rounded corners at the top of the display in its natural
+         orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">108px</dimen>
+
+    <!-- Radius of the software rounded corners at the bottom of the display in its natural
+         orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">124px</dimen>
+
 </resources>
