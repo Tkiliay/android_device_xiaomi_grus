@@ -1,0 +1,7 @@
+prebuilt_etc {
+    name: "com.google.android.GoogleCameraEng",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "com.google.android.GoogleCameraEng.xml",
+    filename_from_src: true,
+}

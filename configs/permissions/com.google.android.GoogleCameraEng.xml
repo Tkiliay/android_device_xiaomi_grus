@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.google.android.GoogleCameraEng">
+        <permission name="android.permission.INSTALL_PACKAGE_UPDATES"/>
+        <permission name="android.permission.BIND_WALLPAPER"/>
+        <permission name="android.permission.REBOOT"/>
+    </privapp-permissions>
+</permissions>
