@@ -5,3 +5,11 @@ prebuilt_etc {
     src: "com.google.android.GoogleCameraEng.xml",
     filename_from_src: true,
 }
+
+prebuilt_etc {
+    name: "GoogleCamera_6gb_ram",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "GoogleCamera_6gb_ram.xml",
+    filename_from_src: true,
+}

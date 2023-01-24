@@ -24,8 +24,9 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
+    com.google.android.GoogleCameraEng \
     GoogleCameraENG \
-    com.google.android.GoogleCameraEng
+    GoogleCamera_6gb_ram
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
