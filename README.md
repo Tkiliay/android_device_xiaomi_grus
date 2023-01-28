@@ -1,4 +1,4 @@
-The Xiaomi Mi 9 SE (codenamed _"grus"_) is a middle-ranged smartphone from Xiaomi.
+The Xiaomi MI 9 SE (codenamed _"grus"_) is a middle-ranged smartphone from Xiaomi.
 
 It was announced in Febraury 2019. Release date was March 2019.
 
@@ -18,7 +18,7 @@ Rear Camera  | 48 MP (wide) + 13 MP (ultrawide) + 8 MP (portrait), PDAF, dual-LE
 
 ## Device picture
 
-![Xiaomi Mi 9 SE](https://wiki.lineageos.org/images/devices/grus.png)
+![Xiaomi MI 9 SE](https://wiki.lineageos.org/images/devices/grus.png)
 
 
 
