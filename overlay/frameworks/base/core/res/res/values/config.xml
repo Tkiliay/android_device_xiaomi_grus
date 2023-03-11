@@ -320,15 +320,6 @@
     <!-- Specifies the maximum burn-in offset vertically. -->
     <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
 
-    <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_supportSmartPixels">true</bool>
-
-    <!-- Night Light FOD -->
-    <bool name="disable_fod_night_light">true</bool>
-
-    <!-- Whether devices suports in-display fingerprint when screen is off -->
-    <bool name="config_supportsScreenOffUdfps">true</bool>
-
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
          {@link android.util.PathParser}.
@@ -350,17 +341,4 @@
         L-87,0
         L-86.9975334,10.7082389
     </string>
-
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">78px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dp</dimen>
-
-    <!-- Radius of the software rounded corners at the top of the display in its natural
-         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_top">108px</dimen>
-
-    <!-- Radius of the software rounded corners at the bottom of the display in its natural
-         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_bottom">124px</dimen>
-
 </resources>
