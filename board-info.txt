@@ -1,0 +1,2 @@
+require version-trustzone=XF.5.0.2-00231
+require version-miui=V12.5.4.0.RFBCNXM
