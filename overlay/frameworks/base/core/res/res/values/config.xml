@@ -300,4 +300,15 @@
 
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
+
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">
+        M-86.9975334,10.7082389
+        C-74.1335099,23.7038575 -64.104552,36.2300641 -56.9106598,48.2868587
+        C-45.0899716,68.1052477 -23.8069241,81 0.002904346,81
+        C23.8127328,81 45.0899716,68.1052477 56.9164685,48.2868587
+        C64.1090408,36.2290779 74.1379482,23.7022572 87.0031906,10.7063968
+        L87,0
+        L-87,0
+        L-86.9975334,10.7082389
+    </string>
 </resources>
