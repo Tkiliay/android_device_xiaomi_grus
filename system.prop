@@ -1,2 +1,3 @@
 # Camera
 persist.vendor.camera.privapp.list=com.google.android.GoogleCameraEng
+vendor.camera.aux.packagelist=com.google.android.GoogleCameraEng
