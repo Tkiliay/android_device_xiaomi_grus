@@ -31,4 +31,17 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">97</integer>
+
+    <!-- Color of the UDFPS pressed view -->
+    <color name="config_udfpsColor">#00ff00</color>
+
+    <!-- HBM type of UDFPS overlay.
+            0 - GLOBAL HBM
+            1 - LOCAL HBM
+    -->
+    <integer name="config_udfpsHbmType">0</integer>
+
+    <!-- Udfps vendor code -->
+    <integer name="config_udfpsVendorCode">22</integer>
+
 </resources>
