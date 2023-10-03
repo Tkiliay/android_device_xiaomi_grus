@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_grus.mk
+    $(LOCAL_DIR)/ancient_grus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_grus-user \
-    aosp_grus-userdebug \
-    aosp_grus-eng
+    ancient_grus-user \
+    ancient_grus-userdebug \
+    ancient_grus-eng
