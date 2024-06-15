@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!-- Xiaomi Mi 9 SE specific wifi overlays -->
+<!-- Xiaomi MI 9 SE specific wifi overlays -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.wifi.resources.grus"
     android:versionCode="1"
