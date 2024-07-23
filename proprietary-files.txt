@@ -56,6 +56,7 @@ vendor/lib/libssrec.so:vendor/lib/libssrec_grus.so;FIX_SONAME
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/libFaceGrade.so
+vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libSNPE.so
 vendor/lib/libVDClearShot.so
 vendor/lib/libVDSuperPhotoAPI.so;DISABLE_CHECKELF
@@ -69,6 +70,7 @@ vendor/lib/libcamxfdengine.so
 vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
+vendor/lib/libmegface.so
 vendor/lib/libmialgo_fs.so
 vendor/lib/libmialgo_sd.so
 vendor/lib/libmibokeh_712.so
